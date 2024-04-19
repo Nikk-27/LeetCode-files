@@ -1,1 +1,1 @@
-Basically trying to be consistant with my DSA journey.
+Basically trying to be consistent with my DSA journey.
