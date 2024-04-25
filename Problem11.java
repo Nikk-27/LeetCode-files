@@ -1,4 +1,6 @@
 // Container with most water
+// javac Problem11.java
+// java -cp . Problem11
 
 public class Problem11 {
     public static void main(String[] args) {
