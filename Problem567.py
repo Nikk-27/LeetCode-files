@@ -21,6 +21,7 @@ class Solution:
             if total_chars == 0:
                 return True
             
+            #sliding window check
             if j - i + 1 == len(s1):
                 # print(s2[i], i, ord(s2[i]), ord('a'), m[ord(s2[i]) - ord('a')])
                 if m[ord(s2[i]) - ord('a')] >= 0:
