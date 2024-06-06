@@ -98,3 +98,8 @@ class MyQueue {
         return in.isEmpty() && out.isEmpty();
     }
 }
+
+
+
+//javac Problem232.java
+// java -cp . Problem232
