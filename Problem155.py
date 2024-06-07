@@ -1,5 +1,9 @@
 #155 Min Stack
 
+################################################################################################################################################################################
+# BELOW CODE WITH TC = O(1) and SC = O(2N)
+
+
 class MinStack:
 
     def __init__(self):
@@ -50,3 +54,46 @@ for command, value in zip(commands, values):
 
 # Print the results
 print(results)
+
+#################################################################################################################################################################################
+# BELOW CODE WITH TC = O(1) and SC = O(N)
+
+"""
+
+class MinStack:
+
+    def __init__(self):
+        self.stack = []
+        self.min = float('inf')
+
+    def push(self, val: int) -> None:
+        if val <= self.min:
+            # Push the old minimum value
+            self.stack.append(self.min)
+            # Update the minimum value
+            self.min = val
+        # Push the actual value
+        self.stack.append(val)
+
+    def pop(self) -> None:
+        if self.stack.pop() == self.min:
+            # If the popped value is the current minimum, pop again to get the old minimum value
+            self.min = self.stack.pop()
+
+    def top(self) -> int:
+        return self.stack[-1]
+
+    def getMin(self) -> int:
+        return self.min
+
+"""
+
+# Example usage:
+# minStack = MinStack()
+# minStack.push(-2)
+# minStack.push(0)
+# minStack.push(-3)
+# print(minStack.getMin())  # Returns -3
+# minStack.pop()
+# print(minStack.top())     # Returns 0
+# print(minStack.getMin())  # Returns -2
