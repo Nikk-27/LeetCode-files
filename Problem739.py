@@ -1,4 +1,4 @@
-# #739 Daily Temperatures
+# 739 Daily Temperatures
 
 from typing import List
 
