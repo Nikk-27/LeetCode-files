@@ -9,7 +9,7 @@ class Solution:
         l, r = 0, len(matrix[0]) - 1  # Initialize column pointers (though these are reset inside the loop)
 
         while row_l <= row_r:
-            row_m = (row_l + row_r) // 2  # Find the middle row
+            row_m = row_l + ((row_r - row_l) // 2)  # Find the middle row
 
             # If target is smaller than the first element of the middle row, search the upper half of the rows
             if matrix[row_m][0] > target:
@@ -21,15 +21,16 @@ class Solution:
                 # Perform binary search within the identified row
                 l, r = 0, len(matrix[row_m]) - 1
                 while l <= r:
-                    mid = (l + r) // 2
+                    mid = l + ((r - l) // 2)
                     if matrix[row_m][mid] > target:
                         r = mid - 1
                     elif matrix[row_m][mid] < target:
                         l = mid + 1
                     else:
                         return True  # Target found
+                print("hii")
                 return False  # Target not found in the identified row
-
+        print("here")
         return False  # Target not found in any row
             
 
@@ -62,6 +63,6 @@ class Solution:
 
 
 matrix = [[1,5,5,6],[10,15,16,20],[23,31,34,60]]
-target = 15
+target = 91
 solution = Solution()
 print(solution.searchMatrix(matrix, target))
