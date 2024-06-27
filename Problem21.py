@@ -2,7 +2,7 @@
 
 from typing import Optional, List
 
-# Definition for singly-linked list.
+# Definition for singly-linked list.           TC : O(N), SC : O(1)
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
