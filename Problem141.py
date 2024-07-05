@@ -8,7 +8,7 @@ class ListNode:
         self.val = x
         self.next = None
 
-class Solution:
+class Solution: #(we are using Floyd's Tortoise & Hare algo)
     def hasCycle(self, head: Optional[ListNode]) -> bool:                         #TC : O(N), SC : O(1)
 
         if not head or not head.next:
