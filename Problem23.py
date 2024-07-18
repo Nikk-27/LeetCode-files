@@ -8,7 +8,7 @@ class ListNode:
         self.val = val
         self.next = next
 
-class Solution:
+class Solution:                                 # TC : O(NLogK)    SC : O(LogK)
 
     def mergeTwoSortedLists(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         if l1 is None:
