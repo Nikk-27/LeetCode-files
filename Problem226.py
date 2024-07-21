@@ -8,8 +8,8 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-class Solution:
-     def invertTree(self, root: TreeNode) -> TreeNode:
+class Solution:                                        # TC : O(N) SC : O(N)
+     def invertTree(self, root: TreeNode) -> TreeNode:     # mirror/flip BT
         if root is None:
             return None
         
@@ -71,3 +71,6 @@ root = create_tree(values)
 solution = Solution()
 inverted_root = solution.invertTree(root)
 print(print_tree(inverted_root))
+
+
+# recursive method uses depth-first traversal to swap nodes, while the iterative method uses breadth-first traversal (level order) with a queue to swap nodes.
