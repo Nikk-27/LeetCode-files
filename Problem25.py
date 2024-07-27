@@ -37,7 +37,7 @@ class Solution:
         
         return prev
     
-    def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
+    def reverseKGroup(self, head: ListNode, k: int) -> ListNode:     # TC : O(N), SC : O(1)
         
         length = self.lengthOfLinkedList(head)
         return self.reverseKGroupH(head, k, length)
