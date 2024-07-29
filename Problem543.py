@@ -10,30 +10,25 @@ class TreeNode:
         self.right = right
 
 class Solution:
+    def __init__(self):
+        self.diameter = 0
 
-    def dfs(self, root: Optional[TreeNode], result) -> int:
+    def dfs(self, root: TreeNode) -> int:
         if root is None:
             return 0
-        
-        # print(root.left.val, root.right.val)
-        left_depth = self.dfs(self, root.left)
-        right_depth = self.dfs(self, root.right)
 
-        self.diameter = left_depth + right_depth
-        print(1 + max(left_depth, right_depth))
-        print(left_depth, right_depth, self.diameter, self.result)
+        left_depth = self.dfs(root.left)
+        right_depth = self.dfs(root.right)
 
+        # Update the diameter if the current path is longer than the stored one
+        self.diameter = max(self.diameter, left_depth + right_depth)
+
+        # Return the height of the current node
         return 1 + max(left_depth, right_depth)
     
-    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
-
-        if root is None:
-            return 0
-        
-        self.diameter = 0
-        self.result = 0
-        self.dfs(self, root, self.result)
-        return self.result
+    def diameterOfBinaryTree(self, root: TreeNode) -> int:
+        self.dfs(root)
+        return self.diameter
 
         
 # Utility function to create a binary tree from a list of values
@@ -80,8 +75,8 @@ def print_tree(root: TreeNode) -> List[Optional[int]]:
     return result
 
 # Example usage
-# values = [4, 2, 7, 3, 1, 6, 9]
-values = [1, 2, 3, 4, 5]
+values = [4, 2, 7, 3, 1, 6, 9]
+# values = [1, 2, 3, 4, 5]
 root = create_tree(values)
 print(print_tree(root))
 solution = Solution()
