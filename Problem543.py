@@ -13,7 +13,7 @@ class Solution:
     def __init__(self):
         self.diameter = 0
 
-    def dfs(self, root: TreeNode) -> int:
+    def dfs(self, root: Optional[TreeNode]) -> int:
         if root is None:
             return 0
 
@@ -26,7 +26,7 @@ class Solution:
         # Return the height of the current node
         return 1 + max(left_depth, right_depth)
     
-    def diameterOfBinaryTree(self, root: TreeNode) -> int:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:     #TC : O(N)  SC: O(N)
         self.dfs(root)
         return self.diameter
 
@@ -82,3 +82,5 @@ print(print_tree(root))
 solution = Solution()
 l = solution.diameterOfBinaryTree(root)
 print(l)
+
+#video link  :https://www.youtube.com/watch?v=6RsRTx6z3CA&ab_channel=CSforNormalPeople
