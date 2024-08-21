@@ -13,8 +13,8 @@ class TreeNode:
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
         def checkBST(root, minValue, maxValue):
-            print(root.val if root else 0)
-            print(minValue, maxValue)
+            # print(root.val if root else 0)
+            # print(minValue, maxValue)
             if not root:
                 return True
             
@@ -54,7 +54,7 @@ def create_tree(values: List[Optional[int]]) -> TreeNode:
 root = [5,4,6,None,None,3,7]
 root_tree = create_tree(root)
 solution = Solution()
-print(True if solution.isValidBST(root_tree) else False)
+print(solution.isValidBST(root_tree))
 
 #  Time Complexity: O(n)
    # Space Complexity: O(h), where h is the height of the tree (O(log n) for a balanced tree and O(n) for a completely unbalanced tree).
