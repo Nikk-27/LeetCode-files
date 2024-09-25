@@ -3,80 +3,53 @@
 from typing import List
 
 class Solution:
-    def findKthLargest(self, nums: List[int], k: int) -> int:
-        
-
-# Example to run the function
-if __name__ == "__main__":
-    solution = Solution()
-    nums = [3,2,1,5,6,4]
-    k = 2
-    result = solution.kClosest(nums, k)
-    print(result)
-
-
-********* JAVA CODE ********
-class Solution {
     
-    private void swap(int[] nums, int x, int y) {
-        int temp = nums[x];
-        nums[x] = nums[y];
-        nums[y] = temp;
-    }
+    def swap(self, nums, x, y):
+        nums[x], nums[y] = nums[y], nums[x]
+
+    def partition_algo(self, nums, L, R):
+        P = nums[L]
+        i = L + 1
+        j = R
+        
+        
+        while i <= j:
+            if nums[i] < P and nums[j] > P:
+                self.swap(nums, i, j)
+                i += 1
+                j -= 1
+                
+            if nums[i] >= P:
+                i += 1
+            
+            if nums[j] <= P:
+                j -= 1
+
+        self.swap(nums, L, j)
+        return j  # P is at jth index
     
-    public int partition_algo(int[] nums, int L, int R) {
-        
-        int P = nums[L];
-        int i = L+1; //0
-        int j = R; //0
-        
-        while(i <= j) {
+    def findKthLargest(self, nums, k):
+        n = len(nums)
+        L = 0
+        R = n - 1
+        pivot_idx = 0
+
+        # k-th largest element in descending order
+        while True:
+            pivot_idx = self.partition_algo(nums, L, R)
             
-            if(nums[i] < P && nums[j] > P) {
-                swap(nums, i, j);
-                i++;
-                j--;
-            }
-            
-            if(nums[i] >= P) {
-                i++;
-            }
-            
-            if(nums[j] <= P) {
-                j--;
-            }
-            
-        }
-        
-        swap(nums, L, j);
-        return j; //P is at jth index
-    }
-    
-    public int findKthLargest(int[] nums, int k) {
-        int n = nums.length;
-        
-        int L = 0;
-        int R = n-1;
-        
-        int pivot_idx = 0;
-        
-        //kth largest pivot element - nums[k-1] (descendinforder me partition karenge)
-        
-        while(true) {
-            
-            pivot_idx = partition_algo(nums, L, R);
-            
-            if(pivot_idx == k-1) {
-                break;
-            } else if(pivot_idx > k-1) { //2nd larget , 4th larget
-                R = pivot_idx - 1;
-            } else {
-                L = pivot_idx + 1;
-            }
-            
-        }
-        
-        
-        return nums[pivot_idx];
-    }
-}
+            if pivot_idx == k - 1:
+                break
+            elif pivot_idx > k - 1:
+                R = pivot_idx - 1
+            else:
+                L = pivot_idx + 1
+
+        return nums[pivot_idx]
+
+# Example usage:
+solution = Solution()
+nums = [3, 2, 1, 5, 6, 4]
+k = 2
+print(solution.findKthLargest(nums, k))  # Output: 5
+
