@@ -25,7 +25,6 @@ class Solution:
                     cycle_tasks += 1  # Count this as a processed task
                     if freq + 1 < 0:  # Decrease frequency and re-add if tasks remain
                         temp.append(freq + 1)
-                # time += 1
                 
             
             # Push the remaining tasks back into the heap
