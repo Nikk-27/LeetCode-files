@@ -1,0 +1,84 @@
+1. post_tweet Function
+
+Time Complexity:
+
+Checking if userId is in user_map: O(1), because checking key existence in a hash map (Python's dict) is O(1).
+If the user does not exist, creating a new User object: O(1).
+Adding a tweet (inserting at the head of the deque): O(1).
+Total Time Complexity: O(1)
+
+Space Complexity:
+
+The tweet is stored in the tweets deque, and a User object is added to the user_map if it doesn't already exist.
+Each new tweet takes O(1) space, and creating a new User object takes O(1) space.
+Total Space Complexity: O(1) for each tweet.
+
+2. get_news_feed Function
+
+Time Complexity:
+
+Loop over followers: Let's assume that a user has F followers.
+
+For each follower, you add their tweets to the priority queue (max 10 tweets). This operation involves pushing elements into a heap.
+Adding a tweet to the priority queue (heapq.heappush) takes O(log k), where k is the size of the heap, and the heap size is bounded by 10 since we are only interested in the top 10 tweets.
+Hence, for each follower, adding up to 10 tweets takes O(10 * log 10) = O(10). For F followers, this becomes O(10 * F).
+Own tweets: Similarly, adding up to 10 of the user's own tweets takes O(10 * log 10) = O(10).
+
+Extracting tweets: You pop up to 10 tweets from the priority queue, each taking O(log 10). Thus, this step takes O(10 * log 10) = O(10).
+
+Total Time Complexity: O(10 * F) for adding follower tweets + O(10) for adding own tweets = O(F).
+
+Note: The constant factor 10 arises because we limit the number of tweets considered from each user to 10, and the priority queue never grows beyond size 10.
+Space Complexity:
+
+Priority Queue (Heap): The size of the heap is limited to 10 because we only store up to 10 tweets at any given time.
+Hence, the space complexity for the heap is O(10) = O(1).
+Total Space Complexity: O(1), since we limit the heap to a maximum of 10 elements.
+
+3. follow Function
+
+Time Complexity:
+
+Checking if followerId and followeeId exist in user_map: O(1) for each.
+If they don't exist, creating a new User object: O(1) for each.
+Adding a followee to the follower's followers set: O(1).
+Total Time Complexity: O(1)
+
+Space Complexity:
+
+Storing a new follower in the followers set: O(1).
+Adding new User objects (if they don't exist): O(1) each.
+Total Space Complexity: O(1)
+
+
+4. unfollow Function
+
+Time Complexity:
+
+Checking if followerId and followeeId exist in user_map: O(1) for each.
+Removing a followee from the followers set: O(1).
+Total Time Complexity: O(1)
+
+Space Complexity:
+
+No new space is allocated; only an element is removed from the set.
+Total Space Complexity: O(1)
+
+
+
+Overall Complexity
+Time Complexity Summary:
+
+post_tweet: O(1)
+get_news_feed: O(F), where F is the number of followers of the user.
+follow: O(1)
+unfollow: O(1)
+Space Complexity Summary:
+
+post_tweet: O(1) per tweet.
+get_news_feed: O(1), since the priority queue (heap) is capped at 10 elements.
+follow: O(1)
+unfollow: O(1)
+Conclusion
+The overall time complexity for the get_news_feed function is O(F), where F is the number of followers of the user, because you're potentially processing up to 10 tweets for each follower.
+The space complexity is optimized to O(1) due to the limitation of the priority queue size to 10. Other operations like post_tweet, follow, and unfollow are O(1) for both time and space.
