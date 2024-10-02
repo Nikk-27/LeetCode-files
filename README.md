@@ -18,4 +18,16 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
+## Array
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Nikk-27/LeetCode-files/tree/master/0078-subsets) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Nikk-27/LeetCode-files/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Nikk-27/LeetCode-files/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
