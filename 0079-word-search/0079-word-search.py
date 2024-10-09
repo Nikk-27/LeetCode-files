@@ -35,3 +35,14 @@ class Solution:
                     return True  # Word found
         
         return False  # Word not found
+
+
+'''
+Time Complexity (TC):
+In the worst case, from each cell, we could explore all four directions for every letter in the word. If the word's 
+length is k, we might make up to 4^k recursive calls from each starting cell. where m is the number of rows, n is the number of columns, and k is the length of the word. O(m*n*4^k)
+
+Space Complexity (SC):
+The space complexity is dominated by the visited matrix, which is O(m*n), plus the recursion stack space of O(k). 
+Therefore, the overall space complexity is: O(m*n+k)
+'''
