@@ -28,3 +28,26 @@ class Solution:
         self.result = []
         self.backtrack("", digits)
         return self.result
+
+
+'''
+O(3^N∗4^M)
+
+Time Complexity (TC):
+O(3^n) and O(4^n):
+If every digit in the input string mapped to exactly 3 letters (like the digits 2, 3, etc.), the total number of possible combinations would be 3 choices per digit. Hence, if there are n digits, you would generate: 3×3×3×⋯=3^n combinations.
+On the other hand, if every digit in the input string mapped to exactly 4 letters (like the digits 7 and 9), the total number of possible combinations would be: 4×4×4×⋯=4^n combinations.
+Why the complexity is O(4^n) (worst case)?
+In the worst-case scenario, the digits 7 and 9 could appear more frequently, meaning that each digit maps to 4 letters. This is why we consider the time complexity as: O(4^n)
+This assumes that we have to explore 4 branches at each digit, leading to 4^n combinations.
+
+Space Complexity (SC):
+Result Storage:
+The result list stores all possible combinations of letters. The number of combinations can be as large as 4^n in the worst case, and each combination is a string of length n. Therefore, the space required for storing all the combinations is: O(n*4^n)
+This accounts for storing the 4^n combinations, each of length n.
+Call Stack (Recursion):
+The maximum depth of recursion is n, where n is the length of the input string. So the space required for the recursion stack is O(n).
+Overall Space Complexity:
+The total space complexity is the sum of the space for storing results and the recursion stack: O(n*4^n)+O(n)
+This simplifies to: O(n*4^n)
+'''
