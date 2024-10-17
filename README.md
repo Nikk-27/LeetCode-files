@@ -6,6 +6,7 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
 ## Linked List
 |  |
@@ -14,6 +15,7 @@ Basically trying to be consistent with my DSA journey.
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
 ## Heap (Priority Queue)
 |  |
@@ -52,6 +54,7 @@ Basically trying to be consistent with my DSA journey.
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
+| [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 ## Matrix
 |  |
 | ------- |
@@ -60,4 +63,8 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
