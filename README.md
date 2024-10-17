@@ -16,6 +16,7 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
 ## Heap (Priority Queue)
 |  |
@@ -55,6 +56,7 @@ Basically trying to be consistent with my DSA journey.
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Matrix
 |  |
 | ------- |
@@ -67,4 +69,9 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
+## Depth-First Search
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
