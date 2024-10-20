@@ -32,6 +32,7 @@ Basically trying to be consistent with my DSA journey.
 | [0078-subsets](https://github.com/Nikk-27/LeetCode-files/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0090-subsets-ii) |
+| [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 ## Backtracking
 |  |
 | ------- |
@@ -44,6 +45,7 @@ Basically trying to be consistent with my DSA journey.
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -57,10 +59,12 @@ Basically trying to be consistent with my DSA journey.
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 ## Matrix
 |  |
 | ------- |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -70,6 +74,7 @@ Basically trying to be consistent with my DSA journey.
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 ## Depth-First Search
 |  |
 | ------- |
