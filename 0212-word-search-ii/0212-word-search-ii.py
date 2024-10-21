@@ -53,3 +53,15 @@ class Solution:
 
         # Backtrack: Restore the original character
         board[row][col] = temp
+
+'''
+Time Complexity:
+Building Trie: O(N * L), where N is the number of words and L is the average length of the words.
+DFS Search: O(m * n * 4^L), where m * n is the board size and L is the maximum word length (4 directions per cell).
+
+Space Complexity:
+Trie Storage: O(N * L) for storing the words.
+Visited Matrix: O(m * n) for the board.
+DFS Call Stack: O(L) for recursive depth.
+Total space: O(N * L + m * n + L).
+'''
