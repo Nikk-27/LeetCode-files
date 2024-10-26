@@ -34,6 +34,7 @@ Basically trying to be consistent with my DSA journey.
 | [0090-subsets-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0090-subsets-ii) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
+| [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 ## Backtracking
 |  |
 | ------- |
@@ -67,6 +68,7 @@ Basically trying to be consistent with my DSA journey.
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
+| [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -82,12 +84,15 @@ Basically trying to be consistent with my DSA journey.
 | ------- |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
