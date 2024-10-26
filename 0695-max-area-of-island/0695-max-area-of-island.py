@@ -32,3 +32,11 @@ class Solution:
                     print(self.sum)
                     answer.append(self.sum)
         return max(answer) if answer else 0
+
+
+'''
+Time Complexity: 
+O(rows×cols) — Each cell is visited once.
+Space Complexity: 
+O(rows×cols) — Due to recursion stack and answer list.
+'''
