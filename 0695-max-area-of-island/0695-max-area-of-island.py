@@ -20,13 +20,11 @@ class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         row = len(grid)
         col = len(grid[0])
-        count = 0
         answer = []
 
         for i in range(row):
             for j in range(col):
                 if grid[i][j] == 1:
-                    count += 1
                     self.sum = 0
                     self.dfs(i, j, grid)
                     print(self.sum)
