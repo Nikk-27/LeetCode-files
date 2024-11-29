@@ -4,7 +4,7 @@ class Solution:
         nums.sort()
 
         closestSum = 100000
-        for i in range(0,n-1):
+        for i in range(0,n-2):
             l = i+1
             r = n-1
             while(l < r):
