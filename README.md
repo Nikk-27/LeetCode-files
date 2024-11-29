@@ -33,6 +33,7 @@ Basically trying to be consistent with my DSA journey.
 | [0078-subsets](https://github.com/Nikk-27/LeetCode-files/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0090-subsets-ii) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
@@ -100,8 +101,13 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Sorting
 |  |
 | ------- |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
