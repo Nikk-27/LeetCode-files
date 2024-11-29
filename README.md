@@ -25,6 +25,7 @@ Basically trying to be consistent with my DSA journey.
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 | [0039-combination-sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0040-combination-sum-ii) |
@@ -100,11 +101,13 @@ Basically trying to be consistent with my DSA journey.
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 ## Binary Search
 |  |
