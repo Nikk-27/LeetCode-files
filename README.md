@@ -25,6 +25,7 @@ Basically trying to be consistent with my DSA journey.
 ## Array
 |  |
 | ------- |
+| [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 | [0039-combination-sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Nikk-27/LeetCode-files/tree/master/0046-permutations) |
@@ -95,4 +96,12 @@ Basically trying to be consistent with my DSA journey.
 | ------- |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
+## Two Pointers
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
+## Sorting
+|  |
+| ------- |
+| [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 <!---LeetCode Topics End-->
