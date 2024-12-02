@@ -6,6 +6,7 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
@@ -32,6 +33,7 @@ Basically trying to be consistent with my DSA journey.
 | [0039-combination-sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Nikk-27/LeetCode-files/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Nikk-27/LeetCode-files/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/Nikk-27/LeetCode-files/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
@@ -62,6 +64,7 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
@@ -113,6 +116,7 @@ Basically trying to be consistent with my DSA journey.
 | ------- |
 | [0015-3sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
+| [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
 ## Binary Search
 |  |
