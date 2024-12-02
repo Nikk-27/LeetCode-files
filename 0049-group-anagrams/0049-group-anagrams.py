@@ -7,3 +7,9 @@ class Solution:
                 count[ord(c) - ord('a')] += 1
             res[tuple(count)].append(s)
         return list(res.values())
+
+
+Time & Space Complexity
+Time complexity: O(m∗nlogn)
+Space complexity: O(m∗n)
+Where m is the number of strings and n is the length of the longest string.
