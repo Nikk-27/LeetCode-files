@@ -32,6 +32,7 @@ Basically trying to be consistent with my DSA journey.
 | [0031-next-permutation](https://github.com/Nikk-27/LeetCode-files/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Nikk-27/LeetCode-files/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/Nikk-27/LeetCode-files/tree/master/0051-n-queens) |
@@ -82,6 +83,7 @@ Basically trying to be consistent with my DSA journey.
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
 ## Trie
 |  |
@@ -111,6 +113,7 @@ Basically trying to be consistent with my DSA journey.
 | [0015-3sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Nikk-27/LeetCode-files/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 ## Sorting
 |  |
@@ -127,4 +130,12 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Nikk-27/LeetCode-files/tree/master/0238-product-of-array-except-self) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
