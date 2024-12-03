@@ -41,6 +41,7 @@ Basically trying to be consistent with my DSA journey.
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
+| [0238-product-of-array-except-self](https://github.com/Nikk-27/LeetCode-files/tree/master/0238-product-of-array-except-self) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 ## Backtracking
 |  |
@@ -122,4 +123,8 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/Nikk-27/LeetCode-files/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
