@@ -10,6 +10,7 @@ Basically trying to be consistent with my DSA journey.
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
+| [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
 ## Linked List
 |  |
 | ------- |
@@ -73,6 +74,7 @@ Basically trying to be consistent with my DSA journey.
 | [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
+| [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
 ## Matrix
 |  |
 | ------- |
@@ -115,6 +117,7 @@ Basically trying to be consistent with my DSA journey.
 | [0031-next-permutation](https://github.com/Nikk-27/LeetCode-files/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
 ## Sorting
 |  |
 | ------- |
@@ -138,4 +141,8 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
+## Sliding Window
+|  |
+| ------- |
+| [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
 <!---LeetCode Topics End-->
