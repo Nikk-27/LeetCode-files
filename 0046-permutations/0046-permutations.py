@@ -3,19 +3,19 @@ class Solution:
         result = []  # To store all the permutations
         
         # Helper function to generate permutations
-        def backtrack(temp, available_nums):
-            if not available_nums:  # Base case: when there are no more numbers to add
+        def backtrack(temp, nums):
+            if len(temp) == len(nums):
                 result.append(temp[:])  # Add a copy of the current permutation to the result
                 return
             
             # Try placing each number in the available numbers list
-            for i in range(len(available_nums)):
+            for i in range(len(nums)):
                 # Choose a number and explore further
-                temp.append(available_nums[i])  # Include the number
-                # Recursive call with the remaining numbers
-                backtrack(temp, available_nums[:i] + available_nums[i+1:])
+                if nums[i] not in temp: 
+                  temp.append(nums[i])  # Include the number
+                  backtrack(temp, nums)
                 # Backtrack (remove the last number to try the next possibility)
-                temp.pop()
+                  temp.pop()
         
         backtrack([], nums)  # Initial call to start the backtracking
         return result
