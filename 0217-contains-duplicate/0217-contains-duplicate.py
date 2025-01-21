@@ -6,3 +6,7 @@ class Solution:
                 return True
             nums_set.add(n)
         return False
+
+
+# TC = O(n)
+# SC = O(n)
