@@ -11,6 +11,7 @@ Basically trying to be consistent with my DSA journey.
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Nikk-27/LeetCode-files/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
 | [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
 ## Linked List
@@ -26,6 +27,7 @@ Basically trying to be consistent with my DSA journey.
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
 ## Array
 |  |
@@ -48,6 +50,7 @@ Basically trying to be consistent with my DSA journey.
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 | [0217-contains-duplicate](https://github.com/Nikk-27/LeetCode-files/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Nikk-27/LeetCode-files/tree/master/0238-product-of-array-except-self) |
+| [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 ## Backtracking
 |  |
@@ -130,6 +133,7 @@ Basically trying to be consistent with my DSA journey.
 | [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/Nikk-27/LeetCode-files/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -150,4 +154,20 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
