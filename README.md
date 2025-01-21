@@ -8,6 +8,7 @@ Basically trying to be consistent with my DSA journey.
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
+| [0217-contains-duplicate](https://github.com/Nikk-27/LeetCode-files/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
 | [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
@@ -43,6 +44,7 @@ Basically trying to be consistent with my DSA journey.
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
+| [0217-contains-duplicate](https://github.com/Nikk-27/LeetCode-files/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Nikk-27/LeetCode-files/tree/master/0238-product-of-array-except-self) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 ## Backtracking
@@ -124,6 +126,7 @@ Basically trying to be consistent with my DSA journey.
 | [0015-3sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 | [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
+| [0217-contains-duplicate](https://github.com/Nikk-27/LeetCode-files/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
 ## Binary Search
 |  |
