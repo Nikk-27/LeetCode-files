@@ -5,6 +5,7 @@ Basically trying to be consistent with my DSA journey.
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
@@ -29,6 +30,7 @@ Basically trying to be consistent with my DSA journey.
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Nikk-27/LeetCode-files/tree/master/0031-next-permutation) |
