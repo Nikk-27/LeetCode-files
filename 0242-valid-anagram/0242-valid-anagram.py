@@ -18,3 +18,6 @@ class Solution:
             return True
         else:
             return False
+
+# TC = O(n+m)
+# SC = O(1) since all 26 chars array
