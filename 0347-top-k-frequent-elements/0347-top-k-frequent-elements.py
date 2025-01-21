@@ -15,6 +15,6 @@ class Solution:
             res.append(heapq.heappop(heap)[1])
         return res
 
-# TC = O(n + logk)
+# TC = O(nlogk)
 # SC = O(n+k)
 
