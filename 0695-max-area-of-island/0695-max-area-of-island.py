@@ -1,35 +1,24 @@
 class Solution:
-    def __init__(self):
-        self.sum = 0
-
-    def dfs(self, row, col, grid):
-        if (row < 0 or col < 0 or 
-        row >= len(grid) or col >= len(grid[0]) or 
-        grid[row][col] != 1):
-            return
-
-        grid[row][col] = "$"
-        self.sum += 1
-
-        # Explore all four directions (up, down, left, right)
-        self.dfs(row + 1, col, grid)
-        self.dfs(row - 1, col, grid)
-        self.dfs(row, col + 1, grid)
-        self.dfs(row, col - 1, grid)
-
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        row = len(grid)
-        col = len(grid[0])
-        answer = 0
 
-        for i in range(row):
-            for j in range(col):
-                if grid[i][j] == 1:
-                    self.sum = 0
-                    self.dfs(i, j, grid)
-                    print(self.sum)
-                    answer = max(answer, self.sum)
-        return answer
+        def dfs(r, c):
+            if (r < 0 or c < 0 or r >= ROWS or c >= COLS or grid[r][c] != 1):
+                return 0
+            grid[r][c] = 0
+
+            return (1 + dfs(r+1, c) + dfs(r-1, c) + dfs(r, c+1) + dfs(r, c-1))
+
+        ROWS = len(grid)
+        COLS = len(grid[0])
+
+        sum = 0
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if grid[r][c] == 1:
+                    sum = max(dfs(r, c), sum)
+        return sum
+
 
 
 '''
