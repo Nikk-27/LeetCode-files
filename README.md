@@ -54,6 +54,7 @@ Basically trying to be consistent with my DSA journey.
 | [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Nikk-27/LeetCode-files/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Nikk-27/LeetCode-files/tree/master/1036-rotting-oranges) |
 ## Backtracking
 |  |
 | ------- |
@@ -92,6 +93,7 @@ Basically trying to be consistent with my DSA journey.
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Nikk-27/LeetCode-files/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Nikk-27/LeetCode-files/tree/master/1036-rotting-oranges) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -118,6 +120,7 @@ Basically trying to be consistent with my DSA journey.
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Nikk-27/LeetCode-files/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/Nikk-27/LeetCode-files/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
