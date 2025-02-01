@@ -50,6 +50,7 @@ Basically trying to be consistent with my DSA journey.
 | [0198-house-robber](https://github.com/Nikk-27/LeetCode-files/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
+| [0213-house-robber-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/Nikk-27/LeetCode-files/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Nikk-27/LeetCode-files/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
@@ -101,6 +102,7 @@ Basically trying to be consistent with my DSA journey.
 | [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Nikk-27/LeetCode-files/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0213-house-robber-ii) |
 ## Trie
 |  |
 | ------- |
