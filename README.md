@@ -7,6 +7,7 @@ Basically trying to be consistent with my DSA journey.
 | ------- |
 | [0001-two-sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0036-valid-sudoku](https://github.com/Nikk-27/LeetCode-files/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/Nikk-27/LeetCode-files/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
@@ -37,6 +38,7 @@ Basically trying to be consistent with my DSA journey.
 | [0015-3sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Nikk-27/LeetCode-files/tree/master/0031-next-permutation) |
+| [0036-valid-sudoku](https://github.com/Nikk-27/LeetCode-files/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/Nikk-27/LeetCode-files/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
@@ -90,6 +92,7 @@ Basically trying to be consistent with my DSA journey.
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Nikk-27/LeetCode-files/tree/master/0036-valid-sudoku) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
