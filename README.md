@@ -9,6 +9,7 @@ Basically trying to be consistent with my DSA journey.
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/Nikk-27/LeetCode-files/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/Nikk-27/LeetCode-files/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Nikk-27/LeetCode-files/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/Nikk-27/LeetCode-files/tree/master/0217-contains-duplicate) |
@@ -48,6 +49,7 @@ Basically trying to be consistent with my DSA journey.
 | [0078-subsets](https://github.com/Nikk-27/LeetCode-files/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0090-subsets-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/Nikk-27/LeetCode-files/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/Nikk-27/LeetCode-files/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
@@ -135,6 +137,7 @@ Basically trying to be consistent with my DSA journey.
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Nikk-27/LeetCode-files/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Nikk-27/LeetCode-files/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 ## Two Pointers
