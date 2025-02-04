@@ -1,0 +1,12 @@
+Final Complexity Summary
+Case	                         Set Operation Time	Overall Complexity
+Average case with unordered_set	  O(1)	            O(N)
+Worst case with unordered_set	    O(N)	            O(N²)
+Using ordered set (RB tree)	      O(log N)	        O(N log N)
+
+
+
+Conclusion
+- The expected complexity is O(N), assuming efficient set operations.
+- In the worst case, it can degrade to O(N²) due to hash collisions.
+- Using an ordered set (like a BST) results in O(N log N) complexity.
