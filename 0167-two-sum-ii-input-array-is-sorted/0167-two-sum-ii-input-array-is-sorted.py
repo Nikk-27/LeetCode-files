@@ -1,12 +1,19 @@
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
-        n = len(numbers)
-        i = 0
-        j = n - 1
-        while i < j:
-            sum = numbers[i] + numbers[j]
-            if sum < target:
-                i += 1
-            elif sum > target: j -= 1
-            else : return [i+1, j+1]
+        l = 0
+        r = len(numbers) - 1
+        while l < r:
+            if numbers[l] + numbers[r] == target:
+                return [l+1, r+1]
+                l += 1
+                r -= 1
+            if numbers[l] + numbers[r] > target:
+                r -= 1
+            if numbers[l] + numbers[r] < target:
+                l += 1
         return []
+
+# TC = O(N)
+# SC = O(1)
+
+
