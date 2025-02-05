@@ -85,6 +85,7 @@ Basically trying to be consistent with my DSA journey.
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Nikk-27/LeetCode-files/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/Nikk-27/LeetCode-files/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/Nikk-27/LeetCode-files/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/Nikk-27/LeetCode-files/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Nikk-27/LeetCode-files/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -147,6 +148,7 @@ Basically trying to be consistent with my DSA journey.
 | [0016-3sum-closest](https://github.com/Nikk-27/LeetCode-files/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/Nikk-27/LeetCode-files/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
+| [0125-valid-palindrome](https://github.com/Nikk-27/LeetCode-files/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
 ## Sorting
