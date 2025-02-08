@@ -50,6 +50,7 @@ Basically trying to be consistent with my DSA journey.
 | [0078-subsets](https://github.com/Nikk-27/LeetCode-files/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Nikk-27/LeetCode-files/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0090-subsets-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Nikk-27/LeetCode-files/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Nikk-27/LeetCode-files/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/Nikk-27/LeetCode-files/tree/master/0198-house-robber) |
@@ -107,6 +108,7 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0042-trapping-rain-water) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Nikk-27/LeetCode-files/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Nikk-27/LeetCode-files/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0213-house-robber-ii) |
