@@ -1,0 +1,108 @@
+from sortedcontainers import SortedList
+class Node:
+    def __init__(self, val=None, next=None, prev=None):
+        self.val = val
+        self.next = next
+        self.prev = prev
+
+class MaxStack:
+
+    def __init__(self):
+        self.ol = SortedList(key=lambda x: x.val)
+        self.last = None
+
+
+    def push(self, x: int) -> None:
+        node = Node(x, None, prev=self.last)
+        last = self.last 
+        if last:
+            last.next = node
+        self.last = node
+        self.ol.add(node)
+
+    def pop(self) -> int:
+        node = self.last
+        prev = node.prev
+        if prev:
+            prev.next = None
+        self.ol.discard(node) 
+        self.last = prev
+        return node.val
+
+    def top(self) -> int:
+        return self.last.val
+
+    def peekMax(self) -> int:
+        return self.ol[-1].val
+
+    def popMax(self) -> int:
+        m = self.ol.pop()
+        prev, nxt = m.prev, m.next
+        if prev:
+            prev.next = m.next
+        if nxt:
+            nxt.prev = prev
+
+        if m is self.last:
+            self.last = prev
+            
+        return m.val
+
+
+# Your MaxStack object will be instantiated and called as such:
+# obj = MaxStack()
+# obj.push(x)
+# param_2 = obj.pop()
+# param_3 = obj.top()
+# param_4 = obj.peekMax()
+# param_5 = obj.popMax()
+
+'''
+Intuition
+The problem statement specifies that thetopoperations must be O(1) and the other operations arelog(n). The best data structure which looks same as stack can be LinkedList + SortedList for adding and popping the elements inlog(n)
+
+Approach
+The best structure to do is DoubleLinkedList + SortedList fromsortedcontainers. And the interesting thing here is enough pointer for linked list is pointerself.last(notheadas usually).
+Also the SortedList have a key argument for specifying the ordering (here it's node.val)
+
+Complexity
+Time complexity:
+push- Adding pointerO(1)+ Adding to sorted listlog(N)
+pop- Remove pointerO(1)+ Remove from sorted listlog(N)
+top- Return last pointerO(1)
+peekMax- Return last element in sorted listO(1)
+popMax- Remove max elementlog(N)+ Setup pointersO(1)
+'''
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Easy solution but exceeds time
+
+class MaxStack:
+
+    def __init__(self):
+        self.stack = []
+
+    def push(self, x: int) -> None:
+        self.stack.append(x)
+
+    def pop(self) -> int:
+        return self.stack.pop()
+
+    def top(self) -> int:
+        return self.stack[-1]
+
+    def peekMax(self) -> int:
+        return max(self.stack)
+
+    def popMax(self) -> int:
+        buffer = []
+        while self.stack[-1] != max(self.stack):
+            buffer.append(self.stack.pop())
+
+        return_value = self.stack.pop()
+
+        while buffer:
+            self.stack.append(buffer.pop())
+
+        return return_value
+        
