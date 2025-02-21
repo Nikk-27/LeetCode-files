@@ -17,6 +17,7 @@ Basically trying to be consistent with my DSA journey.
 | [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Nikk-27/LeetCode-files/tree/master/0355-design-twitter) |
 | [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
+| [0697-degree-of-an-array](https://github.com/Nikk-27/LeetCode-files/tree/master/0697-degree-of-an-array) |
 ## Linked List
 |  |
 | ------- |
@@ -62,6 +63,7 @@ Basically trying to be consistent with my DSA journey.
 | [0347-top-k-frequent-elements](https://github.com/Nikk-27/LeetCode-files/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Nikk-27/LeetCode-files/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
+| [0697-degree-of-an-array](https://github.com/Nikk-27/LeetCode-files/tree/master/0697-degree-of-an-array) |
 | [1036-rotting-oranges](https://github.com/Nikk-27/LeetCode-files/tree/master/1036-rotting-oranges) |
 ## Backtracking
 |  |
