@@ -94,6 +94,7 @@ Basically trying to be consistent with my DSA journey.
 | [0212-word-search-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/Nikk-27/LeetCode-files/tree/master/0242-valid-anagram) |
 | [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
+| [2559-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Nikk-27/LeetCode-files/tree/master/2559-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Matrix
 |  |
 | ------- |
@@ -112,6 +113,7 @@ Basically trying to be consistent with my DSA journey.
 | [0131-palindrome-partitioning](https://github.com/Nikk-27/LeetCode-files/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/Nikk-27/LeetCode-files/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Nikk-27/LeetCode-files/tree/master/0213-house-robber-ii) |
+| [2559-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Nikk-27/LeetCode-files/tree/master/2559-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Trie
 |  |
 | ------- |
@@ -155,6 +157,7 @@ Basically trying to be consistent with my DSA journey.
 | [0125-valid-palindrome](https://github.com/Nikk-27/LeetCode-files/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Nikk-27/LeetCode-files/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
+| [2559-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Nikk-27/LeetCode-files/tree/master/2559-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Sorting
 |  |
 | ------- |
@@ -215,4 +218,5 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Nikk-27/LeetCode-files/tree/master/0011-container-with-most-water) |
+| [2559-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Nikk-27/LeetCode-files/tree/master/2559-maximum-number-of-non-overlapping-palindrome-substrings) |
 <!---LeetCode Topics End-->
