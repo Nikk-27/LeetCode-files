@@ -65,6 +65,7 @@ Basically trying to be consistent with my DSA journey.
 | [0695-max-area-of-island](https://github.com/Nikk-27/LeetCode-files/tree/master/0695-max-area-of-island) |
 | [0697-degree-of-an-array](https://github.com/Nikk-27/LeetCode-files/tree/master/0697-degree-of-an-array) |
 | [1036-rotting-oranges](https://github.com/Nikk-27/LeetCode-files/tree/master/1036-rotting-oranges) |
+| [1138-grumpy-bookstore-owner](https://github.com/Nikk-27/LeetCode-files/tree/master/1138-grumpy-bookstore-owner) |
 ## Backtracking
 |  |
 | ------- |
@@ -189,6 +190,7 @@ Basically trying to be consistent with my DSA journey.
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Nikk-27/LeetCode-files/tree/master/0567-permutation-in-string) |
+| [1138-grumpy-bookstore-owner](https://github.com/Nikk-27/LeetCode-files/tree/master/1138-grumpy-bookstore-owner) |
 ## Divide and Conquer
 |  |
 | ------- |
