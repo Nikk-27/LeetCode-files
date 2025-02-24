@@ -25,3 +25,29 @@ class Solution:
 
 # TC = O(N)
 # SC = O(N)
+
+# ------------------------------------------------------------------------------------------
+# Bottom up with constant space 
+
+# TC = O(N)
+# SC = O(1)
+
+'''
+class Solution:
+    def rob(self, nums):
+        n = len(nums)
+        if n == 1:
+            return nums[0]
+        if n == 2:
+            return max(nums[0], nums[1])
+
+        def rob_range(nums, l, r):
+            prevPrev, prev = 0, 0
+            for i in range(l, r + 1):
+                temp = max(prev, nums[i] + prevPrev)
+                prevPrev, prev = prev, temp
+            return prev
+
+        return max(rob_range(nums, 0, n - 2), rob_range(nums, 1, n - 1))
+
+'''
