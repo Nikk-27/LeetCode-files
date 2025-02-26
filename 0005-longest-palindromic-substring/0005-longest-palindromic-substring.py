@@ -14,7 +14,7 @@ class Solution:
             t[i][i] = True
             maxL = 1
 
-        for L in range(2, n):
+        for L in range(2, n+1):
             for i in range(0, n-L+1):
                 j = i+L-1
 
@@ -27,7 +27,7 @@ class Solution:
                     if j-i+1 > maxL:
                         maxL = j-i+1
                     idx = i
-        print(s[idx: idx+maxL])
+
         return s[idx: idx+maxL]
 
 
