@@ -11,5 +11,5 @@ class Solution:
         
 # coins = 1, 2, 3, 4
 # dp[7] = 1 + dp[4] = 2
-# TC = O()
-# SC = 
+# TC = O(Amount∗Len(Coins))
+# SC = O(Amount)
